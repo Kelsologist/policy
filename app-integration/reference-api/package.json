@@ -1,0 +1,13 @@
+{
+  "name": "reference-api",
+  "version": "1.0.0",
+  "description": "Reference policy integration API",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --check server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
