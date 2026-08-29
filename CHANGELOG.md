@@ -10,3 +10,4 @@ All notable policy updates should be recorded here.
 - Added `/app-integration/` artifacts to implement a thin legal layer in an existing in-progress app.
 - Added policy route/version manifest, legal link placement template, and backend SQL schema for policy acceptance and request intake.
 - Added implementation guide for phased rollout of routes, links, tracking, and deletion/access request handling.
+- Added runnable reference API under `/app-integration/reference-api/` implementing policy content routes, metadata, acceptance tracking, rights intake, admin updates, and consent-status checks.

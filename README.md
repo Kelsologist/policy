@@ -6,6 +6,7 @@ Policy source-of-truth repository for public legal pages and internal compliance
 - `/policies/public/` - public-facing policies rendered in the app
 - `/policies/compliance/` - internal compliance/security references
 - `/app-integration/` - implementation artifacts for routes, links, and consent tracking
+- `/app-integration/reference-api/` - runnable reference API with policy and request endpoints
 - `/POLICY_INDEX.md` - mapping of stable public URLs to policy files
 - `/CHANGELOG.md` - policy change history
 
@@ -21,6 +22,7 @@ Policy source-of-truth repository for public legal pages and internal compliance
 3. Add legal links using `/home/runner/work/policy/policy/app-integration/templates/legal-links.json`.
 4. Create backend tables from `/home/runner/work/policy/policy/app-integration/sql/policy_acceptance_schema.sql`.
 5. Follow phased implementation in `/home/runner/work/policy/policy/app-integration/thin-legal-layer.md`.
+6. Use `/home/runner/work/policy/policy/app-integration/reference-api/README.md` for a working endpoint reference.
 
 ## Governance
 - Changes to policy files should be merged only through reviewed pull requests.
