@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-08-29",
+  "public_policies": [
+    {
+      "policy_key": "privacy",
+      "route": "/privacy",
+      "source_file": "/home/runner/work/policy/policy/policies/public/privacy.md",
+      "policy_version": "1.0.0"
+    },
+    {
+      "policy_key": "terms",
+      "route": "/terms",
+      "source_file": "/home/runner/work/policy/policy/policies/public/terms.md",
+      "policy_version": "1.0.0"
+    },
+    {
+      "policy_key": "data_deletion",
+      "route": "/data-deletion",
+      "source_file": "/home/runner/work/policy/policy/policies/public/data-deletion.md",
+      "policy_version": "1.0.0"
+    },
+    {
+      "policy_key": "cookies",
+      "route": "/cookies",
+      "source_file": "/home/runner/work/policy/policy/policies/public/cookies.md",
+      "policy_version": "1.0.0"
+    }
+  ],
+  "stable_routes": ["/privacy", "/terms", "/data-deletion", "/cookies"]
+}

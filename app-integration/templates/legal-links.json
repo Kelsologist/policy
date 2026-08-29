@@ -1,0 +1,21 @@
+{
+  "placements": [
+    {
+      "surface": "global_footer",
+      "required_links": ["/privacy", "/terms", "/data-deletion"]
+    },
+    {
+      "surface": "signup_login",
+      "required_links": ["/privacy", "/terms"]
+    },
+    {
+      "surface": "checkout_payment",
+      "required_links": ["/privacy", "/terms"]
+    },
+    {
+      "surface": "account_settings",
+      "required_links": ["/privacy", "/terms", "/data-deletion"]
+    }
+  ],
+  "optional_links": ["/cookies"]
+}
