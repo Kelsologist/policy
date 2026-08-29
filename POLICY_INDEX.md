@@ -16,3 +16,4 @@ This index maps repository policy files to stable public URLs.
 - Policy changes require pull request review before merge.
 - Every policy update must include a `CHANGELOG.md` entry.
 - Public legal URLs must remain stable; if a path changes, create redirects.
+- Keep `/home/runner/work/policy/policy/app-integration/policy-manifest.json` synchronized with route/file/version changes.

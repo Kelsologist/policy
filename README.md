@@ -5,6 +5,7 @@ Policy source-of-truth repository for public legal pages and internal compliance
 ## Repository Structure
 - `/policies/public/` - public-facing policies rendered in the app
 - `/policies/compliance/` - internal compliance/security references
+- `/app-integration/` - implementation artifacts for routes, links, and consent tracking
 - `/POLICY_INDEX.md` - mapping of stable public URLs to policy files
 - `/CHANGELOG.md` - policy change history
 
@@ -13,6 +14,13 @@ Policy source-of-truth repository for public legal pages and internal compliance
 2. Keep stable URLs: `/privacy`, `/terms`, `/data-deletion` (and `/cookies` if used).
 3. Link legal pages in footer, signup/login, checkout, and account settings.
 4. Store user acceptance timestamp and accepted policy version during signup.
+
+## Integration Quickstart (Existing In-Progress App)
+1. Load route/file/version mappings from `/home/runner/work/policy/policy/app-integration/policy-manifest.json`.
+2. Add policy routes for `/privacy`, `/terms`, `/data-deletion`, and `/cookies`.
+3. Add legal links using `/home/runner/work/policy/policy/app-integration/templates/legal-links.json`.
+4. Create backend tables from `/home/runner/work/policy/policy/app-integration/sql/policy_acceptance_schema.sql`.
+5. Follow phased implementation in `/home/runner/work/policy/policy/app-integration/thin-legal-layer.md`.
 
 ## Governance
 - Changes to policy files should be merged only through reviewed pull requests.
